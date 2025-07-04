@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		JFrame frame = new JFrame("Student Info Preview");
+		JFrame frame = new JFrame("Student Info Input");
         frame.setSize(400, 350);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
@@ -77,7 +77,7 @@ public class Main {
                     "\nBatch: " + batch +
                     "\nUniversity: " + university;
 
-            JOptionPane.showMessageDialog(frame, previewInfo, "Info", JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(frame, previewInfo, "StudentInfo", JOptionPane.PLAIN_MESSAGE);
         });
 
         // Show frame
